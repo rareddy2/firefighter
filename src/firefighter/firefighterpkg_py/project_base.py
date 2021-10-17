@@ -16,7 +16,7 @@ import numpy as np
 import yaml
 import sys
 from math import pi
-from lab2_header import *
+from projectbase_header import *
 
 # 20Hz
 SPIN_RATE = 20

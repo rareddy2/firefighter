@@ -1,8 +1,15 @@
+import rospkg
+import numpy as np
+
+PI = np.pi
+
+# messages for student to use
 from ur3_driver.msg import command
 from ur3_driver.msg import position
 from ur3_driver.msg import gripper_input
 
 """
+
 command msg
 ------------------------
 float64[] destination

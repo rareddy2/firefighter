@@ -1,4 +1,4 @@
-prefix=/home/ur3/catkin_yuehuiy2/install
+prefix=/home/ur3/catkin_firefighter/install
 
 Name: lab2pkg_py
 Description: Description of lab2pkg_py

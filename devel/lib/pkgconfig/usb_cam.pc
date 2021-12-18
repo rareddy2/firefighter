@@ -1,8 +1,8 @@
-prefix=/home/ur3/catkin_yuehuiy2/devel
+prefix=/home/ur3/catkin_firefighter/devel
 
 Name: usb_cam
 Description: Description of usb_cam
 Version: 0.3.6
-Cflags: -I/home/ur3/catkin_yuehuiy2/src/lab2andDriver/drivers/camera_calibration/usb_cam/include
+Cflags: -I/home/ur3/catkin_firefighter/src/lab2andDriver/drivers/camera_calibration/usb_cam/include
 Libs: -L${prefix}/lib -lusb_cam
 Requires: 

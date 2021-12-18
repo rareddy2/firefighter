@@ -67,14 +67,14 @@ set(lab2pkg_py_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lab2pkg_py_SOURCE_PREFIX /home/ur3/catkin_yuehuiy2/src/lab2andDriver/lab2pkg_py)
-  set(lab2pkg_py_DEVEL_PREFIX /home/ur3/catkin_yuehuiy2/devel)
+  set(lab2pkg_py_SOURCE_PREFIX /home/ur3/catkin_firefighter/src/lab2andDriver/lab2pkg_py)
+  set(lab2pkg_py_DEVEL_PREFIX /home/ur3/catkin_firefighter/devel)
   set(lab2pkg_py_INSTALL_PREFIX "")
   set(lab2pkg_py_PREFIX ${lab2pkg_py_DEVEL_PREFIX})
 else()
   set(lab2pkg_py_SOURCE_PREFIX "")
   set(lab2pkg_py_DEVEL_PREFIX "")
-  set(lab2pkg_py_INSTALL_PREFIX /home/ur3/catkin_yuehuiy2/install)
+  set(lab2pkg_py_INSTALL_PREFIX /home/ur3/catkin_firefighter/install)
   set(lab2pkg_py_PREFIX ${lab2pkg_py_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/ur3/catkin_yuehuiy2/install/lib;/home/ur3/catkin_yuehuiy2/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/ur3/catkin_firefighter/install/lib;/home/ur3/catkin_firefighter/devel/lib;/home/ur3/catkin_ddpope2/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

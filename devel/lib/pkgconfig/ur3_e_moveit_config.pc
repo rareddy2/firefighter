@@ -1,4 +1,4 @@
-prefix=/home/ur3/catkin_yuehuiy2/devel
+prefix=/home/ur3/catkin_firefighter/devel
 
 Name: ur3_e_moveit_config
 Description: Description of ur3_e_moveit_config
